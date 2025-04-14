@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Bermuda Triangle",
+      "lat": 25.000,
+      "lng": -71.000,
+      "type": "Mythical",
+      "drift": "+2.4 sec/day",
+      "description": "Mysterious disappearances and time slip reports."
+    },
+    {
+      "name": "Stonehenge",
+      "lat": 51.1789,
+      "lng": -1.8262,
+      "type": "Mythical",
+      "drift": "+0.0001 sec/day",
+      "description": "Believed to be a cosmic calendar or portal."
+    },
+    {
+      "name": "Hafele–Keating Experiment",
+      "lat": 38.8895,
+      "lng": -77.0353,
+      "type": "Scientific",
+      "drift": "+59 ns/hour",
+      "description": "Time measured differently aboard flying atomic clocks."
+    }
+  ]
+  

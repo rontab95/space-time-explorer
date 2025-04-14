@@ -1,0 +1,102 @@
+.leaflet-marker-icon.ripple {
+    animation: pulse 2s infinite;
+    transform: scale(1.2);
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 255, 255, 0.5);
+    }
+    70% {
+      box-shadow: 0 0 0 20px rgba(0, 255, 255, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
+    }
+  }
+
+  /* Base custom marker */
+.custom-marker-icon {
+  background: none;
+  border: none;
+}
+
+.marker-dot {
+  width: 12px;
+  height: 12px;
+  background-color: cyan;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(0, 255, 255, 0.6);
+}
+
+/* Ripple animation */
+.ripple .marker-dot {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(0, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
+  }
+}
+
+
+.custom-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: gray;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.marker-icon--scientific {
+  background: radial-gradient(circle, #00bfff, #003366);
+  box-shadow: 0 0 8px 4px rgba(0, 191, 255, 0.6);
+}
+
+.marker-icon--mythical {
+  background: radial-gradient(circle, #7f00ff, #1a0033);
+  box-shadow: 0 0 8px 4px rgba(127, 0, 255, 0.5);
+}
+
+.marker-icon--fictional {
+  background: radial-gradient(circle, #00ff7f, #00331a);
+  box-shadow: 0 0 8px 4px rgba(0, 255, 127, 0.6);
+}
+
+  
+.filter-panel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+  background: #0a0a0a;
+  color: #00ffff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  border-bottom: 2px solid #222;
+  position: relative;
+  z-index: 999;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  background-color: rgba(0, 255, 255, 0.05);
+  border: 1px solid #00ffff33;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.filter-item:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+}
