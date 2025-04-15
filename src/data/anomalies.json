@@ -1,0 +1,138 @@
+[
+    {
+      "name": "Bermuda Triangle",
+      "lat": 25.000,
+      "lng": -71.000,
+      "type": "Mythical",
+      "drift": "+2.4 sec/day",
+      "description": "Mysterious disappearances and time slip reports."
+    },
+    {
+      "name": "Stonehenge",
+      "lat": 51.1789,
+      "lng": -1.8262,
+      "type": "Mythical",
+      "drift": "+0.0001 sec/day",
+      "description": "Believed to be a cosmic calendar or portal."
+    },
+    {
+      "name": "Hafele–Keating Experiment",
+      "lat": 38.8895,
+      "lng": -77.0353,
+      "type": "Scientific",
+      "drift": "+59 ns/hour",
+      "description": "Time measured differently aboard flying atomic clocks."
+    },
+    {
+      "id": "cern-lhc",
+      "name": "CERN - Large Hadron Collider",
+      "lat": 46.2333,
+      "lng": 6.0500,
+      "type": "Scientific",
+      "drift": "+0.0000001 sec/day",
+      "driftRate": 0.0000001,
+      "description": "The world's most powerful particle collider — some believe it's bending the fabric of space-time itself."
+    },
+    {
+      "id": "devils-triangle",
+      "name": "Devil’s Triangle",
+      "lat": 25.000,
+      "lng": 142.000,
+      "type": "Fictional",
+      "drift": "+1.2 sec/day",
+      "driftRate": 1.2,
+      "description": "The Pacific cousin of the Bermuda Triangle — known for vanishing ships and time anomalies in local legends."
+    },
+
+    {
+      "id": "sedona-vortex",
+      "name": "Sedona Vortex",
+      "lat": 34.8697,
+      "lng": -111.7609,
+      "type": "Mythical",
+      "drift": "+0.00002 sec/day",
+      "driftRate": 0.00002,
+      "description": "A spiritual hotspot said to distort time and perception. Visitors report lost time, altered awareness, and energy fields."
+    },
+
+    {
+      "id": "mount-roraima",
+      "name": "Mount Roraima",
+      "lat": 5.1416,
+      "lng": -60.7636,
+      "type": "Historical Distortion Site",
+      "drift": "+0.000001 sec/day",
+      "driftRate": 0.000001,
+      "description": "A flat-topped mountain shrouded in cloud and lore. Locals say time passes differently at the summit.",
+      "timeEffect": "Perceived time dilation; reports of losing track of days"
+    },
+
+    {
+      "id": "chrono-canyon",
+      "name": "The Chrono Canyon",
+      "lat": 36.9982,
+      "lng": -109.0452,
+      "type": "Theoretical Time Rift",
+      "drift": "+4.2 sec/day",
+      "driftRate": 4.2,
+      "description": "A fictional yet persistent legend among hikers who claim hours vanish in this strange crevice in the desert.",
+      "timeEffect": "Time slips, memory loss, and unaccounted gaps"
+    },
+
+    {
+      "id": "green-bank-zone",
+      "name": "Green Bank Radio Quiet Zone",
+      "lat": 38.4315,
+      "lng": -79.8183,
+      "type": "Verified Drift Zone",
+      "drift": "+0.0000003 sec/day",
+      "driftRate": 0.0000003,
+      "description": "Electromagnetic silence surrounds this scientific zone. GPS and timing devices behave erratically here.",
+      "timeEffect": "Inconsistent digital clock readings"
+    },
+
+    {
+      "id": "anjikuni-lake",
+      "name": "Anjikuni Village Vanishing",
+      "lat": 62.4333,
+      "lng": -100.7500,
+      "type": "Mythical",
+      "drift": "Unknown",
+      "driftRate": 0,
+      "description": "A mysterious 1930s case where an entire Inuit village disappeared. Rumors include time anomalies.",
+      "timeEffect": "Missing persons across multiple decades"
+    },
+    {
+      "id": "kola-borehole",
+      "name": "Kola Superdeep Borehole",
+      "lat": 69.396,
+      "lng": 30.597,
+      "type": "Geo-Temporal Field",
+      "drift": "-0.0000002 sec/day",
+      "driftRate": -0.0000002,
+      "description": "The deepest human-made hole. Seismic and electromagnetic data suggest unusual temporal resonance.",
+      "timeEffect": "Microtime compression near borehole perimeter"
+    },
+
+    {
+      "id": "dyatlov-pass",
+      "name": "Dyatlov Pass Incident",
+      "lat": 61.7542,
+      "lng": 59.4406,
+      "type": "Time-Slip Encounter",
+      "drift": "+Unknown",
+      "driftRate": 0,
+      "description": "1959 event where 9 hikers died under strange conditions. Some theorists believe time distortion played a role.",
+      "timeEffect": "Disorientation, fast decay rates, trauma without apparent cause"
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  ]
+  
