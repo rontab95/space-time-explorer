@@ -100,3 +100,9 @@
 .filter-item:hover {
   background-color: rgba(0, 255, 255, 0.1);
 }
+
+.map-anomalies h2{
+color:#320DE7;
+font-size:32px;
+text-align: center;
+}

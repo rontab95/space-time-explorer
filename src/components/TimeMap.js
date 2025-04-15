@@ -38,7 +38,8 @@ const TimeMap = () => {
   };
 
   return (
-    <>
+    <><div class="map-anomalies"><h2>Map of the Anomalies</h2></div>
+    
       <div className="filter-panel">
         {Object.keys(filter).map((type) => (
           <label key={type}>
