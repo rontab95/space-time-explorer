@@ -60,9 +60,10 @@ const TimeMap = () => {
 /> */}
 
 <TileLayer
-  url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-  attribution='© OpenStreetMap & CartoDB'
+  url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=REACT_APP_TILE_API_KEY"
+  attribution="© Stadia Maps, OpenMapTiles, OpenStreetMap"
 />
+
 
 
 
