@@ -19,10 +19,19 @@ L.Icon.Default.mergeOptions({
 
 const TimeMap = () => {
   const [filter, setFilter] = useState({
-    Scientific: true,
-    Mythical: true,
-    Fictional: true
+    'Scientific': true,
+    'Mythical': true,
+    'Fictional': true,
+    'Time-Slip Encounter': true,
+    'Historical Distortion Site': true,
+    'Geo-Temporal Field': true,
+    'Verified Drift Zone': true,
+    'Theoretical Time Rift': true,
+    'Mass Vanishing Event': true,
+    'Chrono-Sealed Location': true,
+    'Temporal Disaster Zone': true
   });
+  
 
   const handleToggle = (type) => {
     setFilter((prev) => ({ ...prev, [type]: !prev[type] }));
@@ -44,10 +53,11 @@ const TimeMap = () => {
       </div>
 
       <MapContainer center={[20, 0]} zoom={2} style={{ height: '100vh' }}>
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution="© OpenStreetMap contributors"
-        />
+      <TileLayer
+  url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
+  attribution='© Stadia Maps, OpenMapTiles, OpenStreetMap'
+/>
+
         {anomalies
           .filter((a) => filter[a.type])
           .map((spot, i) => (

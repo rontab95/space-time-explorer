@@ -1,7 +1,7 @@
 .footer {
-    background-image: url('/assets/footer_2.jpg');
+    background-image: url('/assets/footer-3.jpg');
     background-size: cover;
-    color: azure;
+    color: #0942C8;
     text-shadow: 0 0 3px #000;
     height: 100px;
     padding: 1rem;
@@ -10,7 +10,7 @@
   
   .footer-sub {
     font-size: 12px;
-    color: azure;
+    color: #0942C8;
     margin-top: 5px;
   }
   
