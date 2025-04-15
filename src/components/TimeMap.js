@@ -31,7 +31,7 @@ const TimeMap = () => {
     'Chrono-Sealed Location': true,
     'Temporal Disaster Zone': true
   });
-  const tileApiKey = process.env.REACT_APP_TILE_API_KEY;
+  
 
   const handleToggle = (type) => {
     setFilter((prev) => ({ ...prev, [type]: !prev[type] }));
@@ -54,18 +54,10 @@ const TimeMap = () => {
       </div>
 
       <MapContainer center={[20, 0]} zoom={2} style={{ height: '100vh' }}>
-      {/* <TileLayer
+      <TileLayer
   url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
   attribution='© Stadia Maps, OpenMapTiles, OpenStreetMap'
-/> */}
-
-<TileLayer
-  url={`https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=${tileApiKey}`}
-  attribution="© Stadia Maps, OpenMapTiles, OpenStreetMap"
 />
-
-
-
 
         {anomalies
           .filter((a) => filter[a.type])
