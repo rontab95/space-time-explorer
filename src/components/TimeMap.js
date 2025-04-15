@@ -54,9 +54,14 @@ const TimeMap = () => {
       </div>
 
       <MapContainer center={[20, 0]} zoom={2} style={{ height: '100vh' }}>
-      <TileLayer
+      {/* <TileLayer
   url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
   attribution='© Stadia Maps, OpenMapTiles, OpenStreetMap'
+/> */}
+
+<TileLayer
+  url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+  attribution='© OpenStreetMap contributors © CARTO'
 />
 
         {anomalies
